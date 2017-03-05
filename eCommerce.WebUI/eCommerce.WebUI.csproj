@@ -246,6 +246,20 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eCommerce.DAL\eCommerce.DAL.csproj">
+      <Project>{6ceb929f-ec19-4368-8c87-3f86a0d6f89d}</Project>
+      <Name>eCommerce.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eCommerce.Interfaces\eCommerce.Interfaces.csproj">
+      <Project>{e06894ea-3cec-4c20-a7db-a9759e6e5f4c}</Project>
+      <Name>eCommerce.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eCommerce.Model\eCommerce.Model.csproj">
+      <Project>{e99fce41-7cde-475b-b4bc-9bf032bb35f5}</Project>
+      <Name>eCommerce.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
